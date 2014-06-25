@@ -1,0 +1,1368 @@
+@import url(ticker-style.css);
+@import url(feature-slider.css);
+@import url(breadcrumb.css);
+@import url(jquery.treeview.css);
+@import url(slider.css);
+@import url(carrousel.css);
+body{
+margin:0px auto;
+padding:0px;
+font-size:12px;
+font-family:Arial;
+background-image:url(../images/bg_body.jpg);
+background-repeat:no-repeat;
+background-position:center top;
+background-color:#fff;
+}
+
+.cleaner_h0 { clear: both; width:100%; height: 0px; }
+.cleaner_h5 { clear: both; width:100%; height: 5px; }
+.cleaner_h3 { clear: both; width:100%; height: 3px; }
+.cleaner_h1 { clear: both; width:100%; height: 3px; }
+.cleaner_h10 { clear: both; width:100%; height: 10px; }
+.cleaner_h20 { clear: both; width:100%; height: 20px; }
+.cleaner_h30 { clear: both; width:100%; height: 30px; }
+.cleaner_h40 { clear: both; width:100%; height: 40px; }
+.cleaner_h50 { clear: both; width:100%; height: 50px; }
+.cleaner_h60 { clear: both; width:100%; height: 60px; }
+.line_h1 { clear: both; width:100%; border-top:1px dotted #4D9116; }
+
+.input-teks-line-top{
+padding:3px;
+border:1px solid #666666;
+width:250px;
+float:left;
+margin-top:1px;
+font-family:Arial;
+}
+
+.input-submit-line-top{
+float:left;
+padding-left:4px;
+}
+
+#long-line-top{
+margin:0px auto;
+width:100%;
+height:65px;
+}
+
+#line-top{
+margin:0px auto;
+width:960px;
+padding:0px 8px 0px 0px;
+background-image:url(../images/bg-diagonal.png);
+}
+
+#img-menu{
+	float:left; 
+	text-align:center;
+	padding-top: 3px;
+	padding-right: 10px;
+}
+
+#img-menu img{
+	float: left;
+	padding-right: 5px;
+}
+
+#left-line-top{
+float:left;
+width:340px;
+padding:12px 0px 0px 0px;
+color: #000;
+font-size: 11px;
+overflow: hidden;
+height: 14px;
+}
+
+#left-line-top ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+#left-line-top ul li{
+	float: left;
+}
+
+#left-line-top ul li a{
+display: block;
+font-weight:bold;
+padding: 3px 10px;
+font-size:12px;
+text-decoration: none;
+color:#000;
+border-right: 1px solid #ccc;
+}
+
+#right-line-top{
+float:right;
+width:610px;
+font-size: 11px;
+}
+
+#header{
+width:980px;
+margin:0px auto;
+height:110px;
+}
+
+#header h1{
+	margin: 0px;
+	padding: 20px 0px 0px 130px;
+	font-family: Tahoma;
+	font-size: 24px;
+}
+
+#header h3{
+	margin: 0px;
+	padding: 5px 0px 0px 130px;
+	font-family: Tahoma;
+	font-size: 14px;
+}
+
+#menu-ribbon{
+width:100%;
+margin:0px auto;
+height:37px;
+}
+
+#center-menu-ribbon{
+margin:0px auto;
+width:980px;
+height:37px;
+color:#FFFFFF;
+}
+
+#hot-news{
+width:940px;
+margin:0px auto;
+color:#000000;
+font-size:11px;
+padding:3px;
+}
+
+
+#out-content{
+width:960px;
+margin:0px auto;
+padding:10px;
+background-color:#FFFFFF;
+}
+
+#content{
+width:960px;
+margin:0px auto;
+background-color:#FFFFFF;
+}
+
+#half-left-content{
+width:470px;
+float: left;
+}
+
+#half-right-content{
+width:470px;
+float: right;
+}
+
+#content-right{
+width:230px;
+float:right;
+}
+
+#bg-sidebar{
+width:220px;
+padding:5px;
+background-image:url(../images/bg-sidebar.jpg);
+background-repeat:no-repeat;
+border-top:1px dotted #999999;
+ -moz-box-shadow: 0 0 8px #ccc; 
+ -webkit-box-shadow: 0 0 8px #ccc; 
+ box-shadow: 0 0 5px #ccc;
+}
+
+#head-sidebar{
+width:170px;
+padding-left:50px;
+padding-top:8px;
+height:40px;
+font-weight:bold;
+font-size:11px;
+color:#fff;
+}
+
+#content-sidebar2{
+width:220px;
+padding-top:5px;
+}
+
+#content-sidebar{
+width:220px;
+padding-top:5px;
+}
+
+#content-sidebar li a{
+color:#000000;
+text-decoration:none;
+}
+
+#content-sidebar li a:hover{
+color:#000000;
+text-decoration:underline;
+}
+
+#content-sidebar ul{
+list-style:square;
+margin:0px;
+padding:0px 0px 0px 20px;
+}
+
+#content-sidebar a{
+color:#000000;
+text-decoration:none;
+}
+
+#content-sidebar li{
+padding-bottom:10px;
+}
+
+#content-sidebar .profil_1{
+	padding: 3px;
+	margin: 3px;
+	padding: 15px 5px 5px 65px;
+	color: #fff;
+	font-weight: bold;
+	background-image:url(../images/bg-profil.png);
+	background-repeat: none;
+	width: 145px;
+	height: 25px;
+}
+
+#content-sidebar .profil_2{
+	padding: 3px;
+	margin: 3px;
+	padding: 15px 5px 5px 65px;
+	color: #fff;
+	font-weight: bold;
+	background-image:url(../images/bg-profil-2.png);
+	background-repeat: none;
+	width: 145px;
+	height: 25px;
+}
+
+#content-sidebar .profil_3{
+	padding: 3px;
+	margin: 3px;
+	padding: 15px 5px 5px 65px;
+	color: #fff;
+	font-weight: bold;
+	background-image:url(../images/bg-profil-3.png);
+	background-repeat: none;
+	width: 145px;
+	height: 25px;
+}
+
+#content-sidebar .profil_4{
+	padding: 3px;
+	margin: 3px;	
+	padding: 15px 5px 5px 65px;
+	color: #fff;
+	font-weight: bold;
+	background-image:url(../images/bg-profil-4.png);
+	background-repeat: none;
+	width: 145px;
+	height: 25px;
+}
+
+#content-sidebar li h4{
+font-size:11px;
+margin:0px;
+padding:0px;
+float:none;
+color:#FF6600;
+}
+
+#bg-welcome{
+width:685px;
+background-image:url(../images/bg-diagonal.png);
+background-color:#333333;
+border:5px solid #999;
+float:left;
+padding:10px;
+color:#FFFFFF;
+}
+
+#bg-welcome h1{
+	padding: 0px;
+	margin: 0px;
+	font-size: 18px;
+}
+
+#content-center{
+width:710px;
+float:left;
+}
+
+#content-center-single{
+width:905px;
+float:left;
+}
+
+#title-news-main{
+background-image:url(../images/news-icon.png);
+background-position:left top;
+background-repeat:no-repeat;
+width:900px;
+padding-left:55px;
+padding-top:10px;
+font-size:15px;
+font-weight:bold;
+height:30px;
+border-bottom:2px dotted #CCCCCC;
+}
+
+#title-news{
+background-image:url(../images/news-icon.png);
+background-position:left top;
+background-repeat:no-repeat;
+width:660px;
+padding-left:55px;
+padding-top:10px;
+font-size:15px;
+font-weight:bold;
+height:30px;
+border-bottom:2px dotted #CCCCCC;
+}
+
+#title-gallery{
+background-image:url(../images/gallery-icon.png);
+background-position:left top;
+background-repeat:no-repeat;
+width:900px;
+padding-left:55px;
+padding-top:10px;
+font-size:15px;
+font-weight:bold;
+height:30px;
+border-bottom:2px dotted #CCCCCC;
+}
+
+#title-link{
+background-image:url(../images/link-icon.png);
+background-position:left top;
+background-repeat:no-repeat;
+width:900px;
+padding-left:55px;
+padding-top:10px;
+font-size:15px;
+font-weight:bold;
+height:30px;
+border-bottom:2px dotted #CCCCCC;
+}
+
+#title-chart{
+background-image:url(../images/chart-icon.png);
+background-position:left top;
+background-repeat:no-repeat;
+width:410px;
+padding-left:55px;
+padding-top:10px;
+font-size:15px;
+font-weight:bold;
+height:30px;
+border-bottom:2px dotted #CCCCCC;
+}
+
+#title-document{
+background-image:url(../images/document-icon.png);
+background-position:left top;
+background-repeat:no-repeat;
+width:410px;
+padding-left:55px;
+padding-top:10px;
+font-size:15px;
+font-weight:bold;
+height:30px;
+border-bottom:2px dotted #CCCCCC;
+}
+
+#news-list{
+width:690px;
+border-bottom:1px dashed #CCCCCC;
+clear:both;
+padding:10px 5px 10px 5px;
+}
+
+#news-list a{
+	text-decoration: none;
+	color: #5f9942;
+}
+
+#news-list img{
+width:150px;
+height:80px;
+float:left;
+margin:0px 7px 7px 7px;
+border: 1px solid #ccc;
+padding: 2px;
+}
+
+#news-list h1{
+font-size:16px;
+margin:0px;
+padding:3px;
+}
+
+#news-list h4{
+font-size:11px;
+margin:0px;
+padding:3px;
+color:#000;
+}
+
+.index-button{
+padding:7px;
+border:1px dotted #999999;
+background-image:url(../images/bg-diagonal.png);
+background-color: #eee;
+color:#FFFFFF;
+font-weight: bold;
+text-align:center;
+float:right;
+cursor:pointer;
+margin:5px;
+}
+
+#title-download{
+background-image:url(../images/download-icon.png);
+background-position:left top;
+background-repeat:no-repeat;
+width:415px;
+padding-left:55px;
+padding-top:10px;
+font-size:15px;
+font-weight:bold;
+height:30px;
+border-bottom:2px dotted #CCCCCC;
+}
+
+#download-list{
+width:470px;
+}
+
+#download-list ul{
+margin:0px;
+padding:0px;
+list-style:none;
+}
+
+#download-list li{
+background-image:url(../images/small-download-icon.png);
+background-repeat:no-repeat;
+background-position:top left;
+padding:0px 0px 5px 30px;
+margin-bottom:8px;
+margin-top:8px;
+border-bottom:1px dashed #CCCCCC;
+}
+
+#footer-menu{
+background-image:url(../images/bg-hover-menu.jpg);
+margin:0px auto;
+height:37px;
+width:100%;
+ -moz-box-shadow: 0 0 8px #333; 
+ -webkit-box-shadow: 0 0 8px #333; 
+ box-shadow: 0 0 15px #333;
+}
+
+#footer-menu ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+#footer-menu ul li{
+	float: left;
+	border-right: 1px solid #000;
+	padding: 0px 10px;
+}
+
+#footer-menu a{
+color:#000000;
+text-decoration:none;
+}
+
+#footer-menu a:hover{
+color:#000000;
+text-decoration:underline;
+}
+
+#center-footer-menu{
+margin:0px auto;
+height:10px;
+width:960px;
+padding:10px;
+text-align:center;
+}
+
+#footer{
+background-color:#5f9942;
+background-image:url(../images/bg-diagonal.png);
+margin:0px auto;
+color:#FFFFFF;
+width:100%;
+}
+
+#footer-inner{
+background-color:#135a9c;
+background-image:url(../images/bg-diagonal.png);
+margin:0px auto;
+color:#FFFFFF;
+width:960px;
+}
+
+#footer-left{
+	float: left;
+	width: 550px;
+}
+
+#footer-right{
+	float: right;
+	width: 350px;
+}
+
+
+#detail-title-news{
+background-image:url(../images/news-icon.png);
+background-position:left top;
+background-repeat:no-repeat;
+width:415px;
+padding-left:55px;
+padding-top:5px;
+font-size:15px;
+font-weight:bold;
+border-bottom:2px dotted #CCCCCC;
+}
+
+
+#news img{
+float:left;
+margin:7px;
+}
+
+#news h4{
+font-size:10px;
+margin:0px;
+padding:3px;
+color:#FF6600;
+}
+
+.pagingpage{
+	background-color: #fff;
+	text-align:center;
+	width:25px;
+	padding: 1px;
+	border: 1px solid #CCCCCC;
+	float:left;
+	margin:1px;
+	cursor: pointer;
+}
+
+
+
+#w2b-searchbox{background:url(../images/search.png) no-repeat scroll center center transparent;width:310px;height:50px;display:block; float:right;}
+form#w2b-searchform{display: block;padding: 10px 12px;margin:0;}
+form#w2b-searchform #s{padding: 6px;margin:0;width: 235px;font-size:12px;vertical-align: top;border:none;background:transparent; outline:none;}
+form#w2b-searchform #sbutton{margin:0;padding:0;height:30px;width:30px;vertical-align: top;border:none;background:transparent;}
+
+
+
+/* Basic jQuery Slider essential styles */
+
+ul.bjqs{position:relative; list-style:none;padding:0;margin:0;overflow:hidden; display:none;}
+li.bjqs-slide{position:absolute; display:none;}
+ul.bjqs-controls{list-style:none;margin:0;padding:0;z-index:9999;}
+ul.bjqs-controls.v-centered li a{position:absolute;}
+ul.bjqs-controls.v-centered li.bjqs-next a{right:0;}
+ul.bjqs-controls.v-centered li.bjqs-prev a{left:0;}
+ol.bjqs-markers{list-style: none; padding: 0; margin: 0; width:100%;}
+ol.bjqs-markers.h-centered{text-align: center;}
+ol.bjqs-markers li{display:inline;}
+ol.bjqs-markers li a{display:inline-block;}
+p.bjqs-caption{display:block;width:96%;margin:0;padding:2%;position:absolute;bottom:0;}
+
+/* Demo CSS - You do not need this css in your own slider */
+
+
+#container{
+	max-width:620px;
+	margin:0 auto;
+	padding-bottom:80px;
+}
+
+#banner-fade,
+#banner-slide{
+	margin-bottom: 40px;
+}
+
+ul.bjqs-controls.v-centered li a{
+	display:block;
+	padding:10px;
+	background:#fff;
+	color:#000;
+	text-decoration: none;
+	background-image:url(../images/bg-diagonal.png);
+}
+
+ul.bjqs-controls.v-centered li a:hover{
+	background-color: #69952b;
+	color:#fff;
+	background-image:url(../images/bg-diagonal.png);
+}
+
+ol.bjqs-markers li a{
+	padding:5px 10px;
+	background:#333;
+	color:#fff;
+	margin:5px;
+	text-decoration: none;
+	background-image:url(../images/bg-diagonal.png);
+}
+
+ol.bjqs-markers li.active-marker a,
+ol.bjqs-markers li a:hover{
+	background-color: #69952b;
+	background-image:url(../images/bg-diagonal.png);
+}
+
+p.bjqs-caption{
+	background: rgba(255,255,255,0.7);
+	background-image:url(../images/bg-diagonal.png);
+	font-size: 18px;
+	font-weight: bold;
+}
+
+
+#listticker{
+height:250px;
+width:100%;
+overflow:hidden;
+}
+.tick-ul{
+margin:0px auto;
+padding:0px;
+}
+.tick-li{
+padding:0px;
+}
+
+
+#carousel_inner {
+float:left; /* important for inline positioning */
+width:440px; /* important (this width = width of list item(including margin) * items shown */ 
+overflow: hidden;  /* important (hide the items outside the div) */
+color: #000;
+/* non-important styling bellow */
+}
+
+#carousel_inner4 {
+float:left; /* important for inline positioning */
+width:190px; /* important (this width = width of list item(including margin) * items shown */ 
+overflow: hidden;  /* important (hide the items outside the div) */
+color: #000;
+/* non-important styling bellow */
+}
+
+#carousel_inner5 {
+float:left; /* important for inline positioning */
+width:190px; /* important (this width = width of list item(including margin) * items shown */ 
+overflow: hidden;  /* important (hide the items outside the div) */
+color: #000;
+/* non-important styling bellow */
+}
+
+#carousel_ul {
+position:relative;
+left:-215px; /* important (this should be negative number of list items width(including margin) */
+list-style-type: none; /* removing the default styling for unordered list items */
+margin: 0px;
+padding: 0px;
+width:9999px; /* important */
+/* non-important styling bellow */
+padding-bottom:10px;
+}
+
+#carousel_ul h4 {
+	color: #fff;
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+}
+
+#carousel_ul li{
+float: left; /* important for inline positioning of the list items */                                    
+width:208px;  /* fixed width, important */
+/* just styling bellow*/
+padding:0px;
+height:300px;
+margin-bottom:10px; 
+margin-left:5px; 
+margin-right:5px; 
+}
+
+#carousel_ul_no_slide {
+position:relative;
+list-style-type: none; /* removing the default styling for unordered list items */
+margin: 0px;
+padding: 0px;
+width:9999px; /* important */
+/* non-important styling bellow */
+padding-bottom:10px;
+}
+
+#carousel_ul_no_slide h4 {
+	color: #fff;
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+}
+
+#carousel_ul_no_slide li{
+float: left; /* important for inline positioning of the list items */                                    
+width:208px;  /* fixed width, important */
+/* just styling bellow*/
+padding:0px;
+height:300px;
+margin-bottom:10px; 
+margin-left:5px; 
+margin-right:5px; 
+}
+
+#carousel_ul li img {
+.margin-bottom:-4px; /* IE is making a 4px gap bellow an image inside of an anchor (<a href...>) so this is to fix that*/
+/* styling */
+cursor:pointer;
+cursor: hand; 
+border:0px; 
+}
+
+#carousel_ul4 {
+position:relative;
+left:-210px; /* important (this should be negative number of list items width(including margin) */
+list-style: none;
+margin: 0px;
+padding: 0px;
+width:9999px; /* important */
+/* non-important styling bellow */
+padding-bottom:10px;
+}
+
+#carousel_ul4 h4 {
+	color: #fff;
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+}
+
+#carousel_ul4 li{
+float: left; /* important for inline positioning of the list items */                                    
+width:180px;  /* fixed width, important */
+/* just styling bellow*/
+list-style: none;
+padding:0px;
+height:320px;
+margin-bottom:10px; 
+margin-left:5px; 
+margin-right:5px; 
+}
+
+#carousel_ul4_no_slide {
+left:-10px; /* important (this should be negative number of list items width(including margin) */
+position:relative;
+list-style: none;
+margin: 0px;
+padding: 0px;
+width:9999px; /* important */
+/* non-important styling bellow */
+padding-bottom:10px;
+}
+
+#carousel_ul4_no_slide h4 {
+	color: #fff;
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+}
+
+#carousel_ul4_no_slide li{
+float: left; /* important for inline positioning of the list items */                                    
+width:175px;  /* fixed width, important */
+/* just styling bellow*/
+list-style: none;
+padding:0px;
+height:320px;
+margin-bottom:10px; 
+margin-left:5px; 
+margin-right:5px; 
+}
+
+#carousel_ul4 li img {
+.margin-bottom:-4px; /* IE is making a 4px gap bellow an image inside of an anchor (<a href...>) so this is to fix that*/
+/* styling */
+cursor:pointer;
+cursor: hand; 
+border:0px; 
+}
+
+
+
+#carousel_ul5 {
+position:relative;
+left:-210px; /* important (this should be negative number of list items width(including margin) */
+list-style: none;
+margin: 0px;
+padding: 0px;
+width:9999px; /* important */
+/* non-important styling bellow */
+padding-bottom:10px;
+}
+
+#carousel_ul5 h4 {
+	color: #fff;
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+}
+
+#carousel_ul5 li{
+float: left; /* important for inline positioning of the list items */                                    
+width:180px;  /* fixed width, important */
+/* just styling bellow*/
+list-style: none;
+padding:0px;
+height:220px;
+margin-bottom:10px; 
+margin-left:5px; 
+margin-right:5px; 
+}
+
+#carousel_ul5_no_slide {
+left:-10px; /* important (this should be negative number of list items width(including margin) */
+position:relative;
+list-style: none;
+margin: 0px;
+padding: 0px;
+width:9999px; /* important */
+/* non-important styling bellow */
+padding-bottom:10px;
+}
+
+#carousel_ul5_no_slide h4 {
+	color: #fff;
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+}
+
+#carousel_ul5_no_slide li{
+float: left; /* important for inline positioning of the list items */                                    
+width:175px;  /* fixed width, important */
+/* just styling bellow*/
+list-style: none;
+padding:0px;
+height:220px;
+margin-bottom:10px; 
+margin-left:5px; 
+margin-right:5px; 
+}
+
+#carousel_ul5 li img {
+.margin-bottom:-4px; /* IE is making a 4px gap bellow an image inside of an anchor (<a href...>) so this is to fix that*/
+/* styling */
+cursor:pointer;
+cursor: hand; 
+border:0px; 
+}
+
+#left_scroll, #right_scroll{
+float:left; 
+height:130px; 
+width:17px; 
+}
+#left_scroll_link, #right_scroll_link{
+float:left; 
+height:130px; 
+width:40px; 
+}
+#left_scroll img, #right_scroll img{
+/*styling*/
+cursor: pointer;
+cursor: hand;
+}
+
+
+
+#carousel_inner2 {
+float:left; /* important for inline positioning */
+width:430px; /* important (this width = width of list item(including margin) * items shown */ 
+overflow: hidden;  /* important (hide the items outside the div) */
+/* non-important styling bellow */
+}
+
+#carousel_ul2 {
+position:relative;
+left:-460px; /* important (this should be negative number of list items width(including margin) */
+list-style-type: none; /* removing the default styling for unordered list items */
+margin: 0px;
+padding: 0px;
+width:9999px; /* important */
+/* non-important styling bellow */
+padding-bottom:10px;
+}
+
+#carousel_ul2 h4 {
+	color: #fff;
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+}
+
+#carousel_ul2 li{
+float: left; /* important for inline positioning of the list items */                                    
+width:440px;  /* fixed width, important */
+/* just styling bellow*/
+padding:0px;
+height:350px;
+margin-bottom:10px; 
+margin-left:5px; 
+margin-right:5px; 
+color: #000;
+font-size: 11px;
+}
+
+#carousel_ul2_no_slide {
+position:relative;
+list-style-type: none; /* removing the default styling for unordered list items */
+margin: 0px;
+padding: 0px;
+width:9999px; /* important */
+/* non-important styling bellow */
+padding-bottom:10px;
+}
+
+#carousel_ul2_no_slide h4 {
+	color: #fff;
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+}
+
+#carousel_ul2_no_slide li{
+float: left; /* important for inline positioning of the list items */                                    
+width:440px;  /* fixed width, important */
+/* just styling bellow*/
+padding:0px;
+height:300px;
+margin-bottom:10px; 
+margin-left:5px; 
+margin-right:5px; 
+color: #000;
+font-size: 11px;
+}
+
+
+#carousel_inner3 {
+float:left; /* important for inline positioning */
+width:875px; /* important (this width = width of list item(including margin) * items shown */ 
+overflow: hidden;  /* important (hide the items outside the div) */
+/* non-important styling bellow */
+background-image:url(../images/cream_pixels.png);
+border: 1px solid #ccc;
+}
+
+#carousel_ul3 {
+position:relative;
+left:-165px; /* important (this should be negative number of list items width(including margin) */
+list-style-type: none; /* removing the default styling for unordered list items */
+margin: 0px;
+padding: 0px;
+width:9999px; /* important */
+/* non-important styling bellow */
+padding-bottom:10px;
+}
+
+#carousel_ul3 h4 {
+	color: #fff;
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+}
+
+#carousel_ul3 li{
+float: left; /* important for inline positioning of the list items */                                    
+width:130px;  /* fixed width, important */
+/* just styling bellow*/
+padding:15px;
+height:128px;
+margin-bottom:10px; 
+margin-left:5px; 
+margin-right:5px; 
+}
+
+/* example_6 css */
+#example_6 {
+	position: relative; /* important */
+	overflow: hidden; /* important */
+	width: 640px; /* important */
+	height: 540px; /* important */
+	margin: 0;
+	background: #fff;
+}
+
+#example_6_content {
+	position: absolute;
+	top: 0;
+	margin-left: 0;
+}
+
+#example_6_content
+#example_6_content li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+	#example_6_content {
+		width: 13440px;
+	}
+	#container_bd #example_6 ul li {
+		display: block;
+		float: left;
+		margin: 0;
+		padding: 0;
+		border: none;
+		background-color: #fff;
+	}
+
+#container_bd #example_6 ul li img {
+	display: block;
+}
+
+#example_6_frame {
+	position: relative;
+	margin: 485px 131px 0 131px;
+}
+#container_bd #example_6_frame ul li {
+	margin: 0 2px;
+}
+#container_bd #example_6_frame ul li img{
+	border: 1px solid #9cf;
+	padding: 2px;
+}
+	#container_bd #example_6_frame ul li img:hover {border: 1px solid #369;}
+			
+
+
+.svwp {width: 50px; height: 20px; background: #fff;} /*preloader stuff. do not modify!*/
+.svwp ul{position: relative; left: -999em;}/*preloader stuff. do not modify!*/
+.slideViewer { 
+position: relative;
+overflow: hidden; 
+margin: 0;
+padding: 0;
+background: #fff;
+}
+.slideViewer ul {  /*your list of images*/
+position: relative;
+left: 0;
+top: 0;
+width: 1%;
+list-style-type: none;
+margin: 0; 
+padding: 0;
+}
+.slideViewer ul li {
+float:left;
+}
+
+/*typographic info*/
+.slideViewer span.typo{ 
+padding: 6px; /* do not modify padding */
+background: #fff;
+color: #000;
+font: normal 10px Verdana;
+}
+
+.thumbSlider { /*the thumbnails slider*/
+overflow: hidden;
+width: 1%;
+background: #fff;
+}
+.thumbSlider ul { 
+list-style-type: none;
+margin: 0; 
+padding: 0;
+}
+.thumbSlider ul li{ 
+float:left;
+margin: 0;
+}
+.thumbSlider a{
+color: #fff;
+text-decoration: none;
+}
+.thumbSlider a img{
+border: 0;
+display: block;
+padding: 0;
+}
+.thumbSlider p.tmbrdr { /* the border above -not around- each thumb */
+/* width, height and top values are dynamically added by the script. Do not modify. */
+position:relative; 
+left: 0;
+font-size: 0.01em;
+left: 0;
+margin: 0;
+padding: 0;
+}
+
+a.left, a.right { /*the left and right buttons (links)*/
+background: transparent; /* could be any color  */
+color: #ff0000;
+font: bold 16px Arial;
+overflow: hidden;
+}
+a.left span, a.right span{
+
+}
+a.left img, a.right img{
+border: 0;
+}
+a.l_dis, a.r_dis {
+background: transparent; /* ALWAYS leave transparent. this is the 'disabled' state of the link !  */
+cursor: default;
+}
+a.l_dis span, a.r_dis span {
+visibility: hidden;
+}
+a:focus {outline:none;}
+
+
+.border-hidden-gallery { width:110px; height:80px; overflow: hidden; float: left; margin: 10px; border: 1px solid #ccc;}
+.border-hidden-album { width:110px; height:100px; float: left; margin: 50px; text-align: center;}
+.border-hidden-link { width:120px; height:120px; overflow: hidden; float: left; margin: 10px; border: 1px solid #ccc;}
+
+.arrow-right{float: right;}
+
+#cssmenu{ height:34px; display:block; padding:0; margin:0; border:1px solid; border-radius:5px; } 
+#cssmenu > ul {list-style:inside none; padding:0; margin:0;} 
+#cssmenu > ul > li {list-style:inside none; padding:0; margin:0; float:left; display:block; position:relative;} 
+#cssmenu > ul > li > a{ outline:none; display:block; position:relative; padding:11px 17px; font-size: 11px; text-align:center; text-decoration:none; text-shadow:1px 1px #000; }
+
+ #cssmenu ul li > ul li{display:block; list-style:inside none; padding:0; margin:0; position:relative;} 
+ #cssmenu ul li > ul li a{ outline:none; display:block; position:relative; margin:0; padding:8px 20px; font:12px; color:#fff; text-decoration:none; text-shadow:1px 1px 0 rgba(0,0,0, 0.5); } 
+ #cssmenu, #cssmenu > ul > li > ul > li a:hover{background-image:url(../images/bg_menu.jpg); } 
+ #cssmenu{border-color:#3589a1;} 
+ #cssmenu > ul > li > a{border-right:1px solid #327c0e; color:#fff; text-transform: uppercase; font-weight: bold;} 
+ #cssmenu > ul > li > a:after{border-color:#6ed1ff;} 
+ #cssmenu > ul > li > a:hover{  background-image:url(../images/bg_menu_flip.jpg);} 
+
+ .rowElem { clear: both; border-top: 1px solid #e7e7e7; padding: 10px 20px; position: relative; }
+.formRight { float: right; width: 76%; margin: 0px 0; display: block; position: relative; }
+.formRight label, .loginRow label { cursor: pointer; }
+.formBottom { /*width: 688px;*/ margin: 12px 12px 12px 0; }
+.rowElem > label { padding: 15px 0; width: 14%; }
+.rowElem .topLabel { padding: 5px 12px 12px 0; width: 100%; }
+
+
+#mainwrapper {
+	font: 10pt normal Arial, sans-serif;
+	height: auto;
+	margin: 20px auto 0 auto;
+	text-align: center;
+	width: 900px;
+	color: #fff;
+}
+
+#mainwrapper h5 {
+	padding: 0px;
+	margin: 0px auto;
+}
+
+#mainwrapper a {
+	text-decoration: none;
+	color: #000;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#mainwrapper p {
+	margin: 0px;
+	padding: 0px;
+	font-size: 11px;
+	color: #fff;
+}
+
+#mainwrapper a:hover {
+	text-decoration: underline;
+	color: red;
+}
+
+/* Image Box Style */
+#mainwrapper .box {
+	border: 5px solid #fff;
+	cursor: pointer;
+	height: 160px;
+	float: left;
+	margin: 25px;
+	position: relative;
+	overflow: hidden;
+	width: 160px;
+		-webkit-box-shadow: 1px 1px 1px 1px #ccc;
+		-moz-box-shadow: 1px 1px 1px 1px #ccc;
+		box-shadow: 1px 1px 1px 1px #ccc;
+	color: #fff;
+}
+#mainwrapper .box img {
+	position: absolute;
+	left: 0;
+		-webkit-transition: all 300ms ease-out;
+		-moz-transition: all 300ms ease-out;
+		-o-transition: all 300ms ease-out;
+		-ms-transition: all 300ms ease-out;	
+	transition: all 300ms ease-out;
+}
+
+/* Caption Common Style */
+#mainwrapper .box .caption {
+	background-color: rgba(0,0,0,0.8);
+	position: absolute;
+	color: #fff;
+	z-index: 100;
+		-webkit-transition: all 300ms ease-out;
+		-moz-transition: all 300ms ease-out;
+		-o-transition: all 300ms ease-out;
+		-ms-transition: all 300ms ease-out;	
+		transition: all 300ms ease-out;
+	left: 0;
+}
+
+/** Caption 3: Fade **/
+#mainwrapper .box .fade-caption, #mainwrapper .box .scale-caption  {
+	opacity: 0;
+	width: 130px;
+	height: 130px;
+	text-align: left;
+	padding: 15px;
+}
+
+
+/** Fade Caption :hover Behaviour **/
+#mainwrapper .box:hover .fade-caption, #mainwrapper .box:hover .scale-caption  {
+	opacity: 1;
+}
+
+/* Image Box Style */
+#mainwrapper .box-dokumen {
+	border: 5px solid #fff;
+	cursor: pointer;
+	height: 130px;
+	float: left;
+	margin: 5px;
+	position: relative;
+	overflow: hidden;
+	width: 130px;
+		-webkit-box-shadow: 1px 1px 1px 1px #ccc;
+		-moz-box-shadow: 1px 1px 1px 1px #ccc;
+		box-shadow: 1px 1px 1px 1px #ccc;
+	color: #fff;
+}
+#mainwrapper .box-dokumen img {
+	position: absolute;
+	left: 0;
+		-webkit-transition: all 300ms ease-out;
+		-moz-transition: all 300ms ease-out;
+		-o-transition: all 300ms ease-out;
+		-ms-transition: all 300ms ease-out;	
+	transition: all 300ms ease-out;
+}
+
+/* Caption Common Style */
+#mainwrapper .box-dokumen .caption {
+	background-color: rgba(0,0,0,0.8);
+	position: absolute;
+	color: #fff;
+	z-index: 100;
+		-webkit-transition: all 300ms ease-out;
+		-moz-transition: all 300ms ease-out;
+		-o-transition: all 300ms ease-out;
+		-ms-transition: all 300ms ease-out;	
+		transition: all 300ms ease-out;
+	left: 0;
+}
+
+/** Caption 3: Fade **/
+#mainwrapper .box-dokumen .fade-caption, #mainwrapper .box .scale-caption  {
+	opacity: 0;
+	width: 110px;
+	height: 110px;
+	text-align: left;
+	padding: 15px;
+}
+
+
+/** Fade Caption :hover Behaviour **/
+#mainwrapper .box-dokumen:hover .fade-caption, #mainwrapper .box:hover .scale-caption  {
+	opacity: 1;
+}
+.scrolls {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    height: 200px;
+    white-space:nowrap
+}
+
+.news{margin:0;padding-top:15px;padding-bottom:15px;margin-top:25px; width: 237px; height:400px; float: left; border: 1px dotted #ccc;background-image:url(../images/cream_pixels.png);}
+.newsLast{margin:0;padding-top:15px;padding-bottom:15px;margin-top:25px; height:400px; width: 237px; border: 1px dotted #ccc; float: left;background-image:url(../images/cream_pixels.png);}
+.newsInner{width:90%;margin:0 auto;font-size:12px;}
+.newsInner img{width:215px;height:160px;margin:0 auto;padding:0 0 15px 0;background:url('../images/bgNews.png') no-repeat center bottom}
+.newsInner > p:first-of-type {color:#d14007;height:50px;font-size:12px;margin-top:10px;text-transform:uppercase;text-align: left; font-weight: bold;}
+.newsInner > p:nth-of-type(2){height:130px; text-align: left;}
+.newsInner a:link, .newsInner a:visited, .newsInner a:active{font-size:14px;color:#d14007;text-decoration:none;}
+.newsInner a:hover{font-size:14px;color:#999;text-decoration:none;}
+
+.newsInnerSidebar{width:90%;margin:0 auto;font-size:12px;}
+.newsInnerSidebar img{width:195px;height:160px;margin:0 auto;padding:0 0 15px 0;background:url('../images/bgNews.png') no-repeat center bottom}
+.newsInnerSidebar > p:first-of-type {color:#d14007;height:50px;font-size:12px;margin-top:10px;text-transform:uppercase;text-align: left; font-weight: bold;}
+.newsInnerSidebar > p:nth-of-type(2){height:130px; text-align: left;}
+.newsInnerSidebar a:link, .newsInner a:visited, .newsInner a:active{font-size:14px;color:#d14007;text-decoration:none;}
+.newsInnerSidebar a:hover{font-size:14px;color:#999;text-decoration:none;}
+
+.dokumen{margin:0;padding:10px;border: 1px dotted #ccc;background-image:url(../images/cream_pixels.png); height: 285px;}
+.linkInner{width:95%;margin:0 auto;font-size:12px; color: #000; text-align: left;}
+.linkInner img{margin:0 auto;padding:0 0 15px 0;background:url('../images/bgNews.png') no-repeat center bottom;}
+
+.titleLink{color:#000;height:40px;font-size:11px; font-weight:bold; margin-top:0px;text-transform:uppercase}
+.contentLink{font-size: 11px;}
+.titleNews{color:#d14007;height:50px;font-size:20px;margin-top:10px;text-transform:uppercase}
+
+#sitemap ul{
+}
+#sitemap ul li{
+	margin: 0px;
+	padding: 2px;
+}
+#sitemap ul li a{
+	text-decoration: none;
+	color: #666;
+}
+#sitemap ul li a:hover{
+	text-decoration: underline;
+	color: #000;
+}
+
+
+
+

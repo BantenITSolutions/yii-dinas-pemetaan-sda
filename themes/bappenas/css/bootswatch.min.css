@@ -1,0 +1,38 @@
+body{padding-top:50px}#banner{border-bottom:0}.page-header h1{font-size:4em}.bs-docs-section{margin-top:8em}.affix{top:70px}footer{margin:5em 0}footer li{float:left;margin-right:1.5em;margin-bottom:1.5em}footer p{clear:left;margin-bottom:0}.splash{background-color:#19232f;background-color:#1c2533;padding:6em 0 2em;color:#fff;text-align:center}.splash .alert{margin:4em 0 2em;text-align:left}.splash h1{font-size:4em}.splash #social{margin-top:6em}.section-tout{padding:4em 0 3em;border-top:1px solid rgba(255,255,255,0.1);border-bottom:1px solid rgba(0,0,0,0.1);background-color:#e2f2f3}.section-tout [class^="icon-"]{margin-right:.5em}.section-tout p{margin-bottom:3em}.section-preview{padding:4em 0 4em}.section-preview .preview{margin-bottom:4em;background-color:#e2f2f3;border:1px solid rgba(0,0,0,0.1);border-radius:6px}.section-preview .preview .image{padding:5px}.section-preview .preview .image img{border:1px solid rgba(0,0,0,0.1)}.section-preview .preview .options{text-align:center;padding:0 2em 2em}.section-preview .preview .options p{margin-bottom:2em}.section-preview .dropdown-menu{text-align:left}.section-preview .lead{margin-bottom:2em}@media(max-width:767px){.section-preview .image img{width:100%}}.bsa .one .bsa_it_ad{border:none!important;background-color:transparent!important}.bsa .one .bsa_it_ad .bsa_it_t,.bsa .one .bsa_it_ad .bsa_it_d{color:inherit!important}.bsa .one .bsa_it_p{display:none}
+
+ 	#dock{margin:0px 0px 0px 0px; padding:0px; list-style:none; position:fixed; top:0px; height:50px; 
+	              z-index:9999; background-color:#000; left:0px; border-right: solid 1px #000;}
+	#dock > li {width:30px; height:100%; margin: 0 0 1px 0; background-color:#000;
+	              background-image:url(../images/grid.jpg); background-position:top center; border-right: solid 1px #000;}
+
+	#dock #links {background-image:url(../images/grid.jpg);background-repeat:no-repeat; color: #fff;}
+
+
+	/* panels */
+	#dock li{font-size: 12px; color: #000;}
+	#dock ul li.header, #dock ul li .header:hover {background:#000 url(header_bkg.png) repeat-x;border: solid 1px #000; color:#fff; height:50px; padding:15px 15px 15px 40px; }
+	#dock ul li.header a {color:#fff;}
+
+	#dock > li:hover ul {display:block;}
+	#dock > li ul {position:absolute; top:0px; left:-350px;  z-index:-1;width:350px; display:none;
+	               background-color:#fff; padding:0px; margin:0px; list-style:none; border-right: solid 1px #000;
+	               -moz-box-shadow:    10px 10px 55px #000;
+			  		-webkit-box-shadow: 10px 10px 55px #000;
+			  		box-shadow:         10px 10px 55px #000;}
+	#dock > li ul.docked { display:block;z-index:-2;}
+
+	.dock,.undock{float:right;}
+	.undock {display:none;}
+	.scroll-pane {
+		padding: 10px;
+		width: 100%;
+		height: 100%;
+		overflow: auto;
+		float: left;
+	}
+	.scroll-pane li{
+		border: none;
+	}
+	#pane3 {
+		height: 100%;
+	}
